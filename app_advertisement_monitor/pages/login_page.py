@@ -90,8 +90,6 @@ class LoginPage(BaseBase):
 if __name__ == '__main__':
     login_page = LoginPage(poco)
     init_device()
-    # login_page.login('0921223333','tw591TW;', '線上')
-    login_page.login('0978654732','wentao123', 'DEBUG')
 
 
 

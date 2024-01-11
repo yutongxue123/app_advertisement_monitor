@@ -21,8 +21,8 @@ class ConnectDatabase:
             server = SSHTunnelForwarder(
                 ('192.168.8.36', 22),  # 跳板机的IP和端口
                 ssh_pkey=PROJECT_PATH + '/tools/t591MySQLConnect_20201009',  # 公钥
-                ssh_username='t591MySQLConnect',  # 跳板机用户名
-                ssh_password='addcn123',  # 跳板机密码
+                ssh_username='跳板机用户名',  # 跳板机用户名
+                ssh_password='跳板机密码',  # 跳板机密码
                 remote_bind_address=('192.168.8.117', 3306),  # 所需要连接数据库的IP和端口
             )
             server.start()
@@ -37,8 +37,8 @@ class ConnectDatabase:
             server = SSHTunnelForwarder(
                 ('203.69.66.147', 10100),  # 跳板机的IP和端口
                 ssh_pkey=PROJECT_PATH + '/tools/t591MySQLConnect_13306',  # 公钥
-                ssh_username='t591MySQLConnect',  # 跳板机用户名
-                ssh_password='addcn123',  # 跳板机密码
+                ssh_username='跳板机用户名',  # 跳板机用户名
+                ssh_password='跳板机密码',  # 跳板机密码
                 remote_bind_address=('192.168.2.203', 3306),  # 所需要连接数据库的IP和端口
             )
             server.start()
@@ -53,8 +53,8 @@ class ConnectDatabase:
             server = SSHTunnelForwarder(
                 ('203.69.66.147', 10100),  # 跳板机的IP和端口
                 ssh_pkey=PROJECT_PATH + '/tools/t591MySQLConnect_13306',  # 公钥
-                ssh_username='t591MySQLConnect',  # 跳板机用户名
-                ssh_password='addcn123',  # 跳板机密码
+                ssh_username='跳板机用户名',  # 跳板机用户名
+                ssh_password='跳板机密码',  # 跳板机密码
                 remote_bind_address=('192.168.2.21', 4000),  # 所需要连接数据库的IP和端口
             )
             server.start()
@@ -134,14 +134,4 @@ class ConnectDatabase:
 
 if __name__ == '__main__':
     pass
-    # 1.连接tidb_prod数据库
-    # tidb = ConnectDatabase('10952', 'wentao123@', connect_database_name='tidb_prod')
-    # tidb2 = ConnectDatabase('10952', 'wentao123@', connect_database_name='tidb')
-    # tidb.show_databases()
-    # tw591 = ConnectDatabase('10952', 'wentao123@', connect_database_name='tw591_prod')
-    # user_info = get_yaml_data('../test_data/database_data.yaml')
-    # print(user_info)
-    # tw591 = ConnectDatabase(user_info['username'], user_info['password'],  connect_database_name=user_info["connect_database_tw591"])
-    # tw591.show_databases()
-    # tidb = ConnectDatabase(user_info['username2'], user_info['password2'],  connect_database_name=user_info["connect_database_tidb"])
 
