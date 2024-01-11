@@ -1,0 +1,28 @@
+INFO     airtest.core.api:cv.py:59 Try finding: Template(E:\python_project\app_advertisement_monitor/page_img/newbuild_homepage_img/banner165396865498065203.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.6, result={'result': (802, 1098), 'rectangle': ((555, 981), (555, 1215), (1050, 1215), (1050, 981)), 'confidence': 0.6317436099052429}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (802, 1098), 'rectangle': ((555, 981), (555, 1215), (1050, 1215), (1050, 981)), 'confidence': 0.6317436099052429, 'time': 0.0}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(E:\python_project\app_advertisement_monitor/page_img/common_img/tpl1701230363293.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (829, 1056), 'rectangle': ((711, 1020), (711, 1092), (948, 1092), (948, 1020)), 'confidence': 0.9430227875709534}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (829, 1056), 'rectangle': ((711, 1020), (711, 1092), (948, 1092), (948, 1020)), 'confidence': 0.9430227875709534, 'time': 0.0}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(E:\python_project\app_advertisement_monitor/page_img/newbuild_homepage_img/158426288485027607.jpg!228x170.jpg)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (258, 576), 'rectangle': ((144, 492), (144, 660), (372, 660), (372, 492)), 'confidence': 0.4110662341117859}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (259, 576), 'rectangle': ((145, 491), (145, 661), (373, 661), (373, 491)), 'confidence': 0.40183815360069275}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.06 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (249, 612), 'rectangle': [(86, 491), (86, 734), (413, 734), (413, 491)], 'confidence': 0.9496425688266754}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.65 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (249, 612), 'rectangle': [(86, 491), (86, 734), (413, 734), (413, 491)], 'confidence': 0.9496425688266754, 'time': 0.6511476039886475}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(E:\python_project\app_advertisement_monitor/page_img/common_img/tpl1697625583157.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (910, 768), 'rectangle': ((873, 750), (873, 786), (948, 786), (948, 750)), 'confidence': 0.7938058972358704}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (910, 768), 'rectangle': ((873, 750), (873, 786), (948, 786), (948, 750)), 'confidence': 0.7938058972358704, 'time': 0.007981538772583008}
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell input keyevent BACK
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell input keyevent BACK

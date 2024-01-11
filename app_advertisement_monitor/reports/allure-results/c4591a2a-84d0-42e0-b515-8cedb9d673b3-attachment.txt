@@ -1,0 +1,31 @@
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell input keyevent ENTER
+INFO     airtest.core.api:cv.py:59 Try finding: Template(E:\python_project\app_advertisement_monitor/page_img/home_search_page_img/163049043821531603.jpg!fit.342x255.jpg)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (600, 127), 'rectangle': ((429, 0), (429, 255), (771, 255), (771, 0)), 'confidence': 0.5128001570701599}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (601, 127), 'rectangle': ((430, 0), (430, 255), (772, 255), (772, 0)), 'confidence': 0.5069394111633301}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.06 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.66 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.28 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (600, 127), 'rectangle': ((429, 0), (429, 255), (771, 255), (771, 0)), 'confidence': 0.5128001570701599}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.02 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (601, 127), 'rectangle': ((430, 0), (430, 255), (772, 255), (772, 0)), 'confidence': 0.5069294571876526}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.05 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (230, 586), 'rectangle': [(0, 358), (0, 815), (536, 815), (536, 358)], 'confidence': 0.7212144583463669}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.89 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (230, 586), 'rectangle': [(0, 358), (0, 815), (536, 815), (536, 358)], 'confidence': 0.7212144583463669, 'time': 0.8906233310699463}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(E:\python_project\app_advertisement_monitor/page_img/common_img/tpl1697625583157.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (910, 768), 'rectangle': ((873, 750), (873, 786), (948, 786), (948, 750)), 'confidence': 0.7938193082809448}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (910, 768), 'rectangle': ((873, 750), (873, 786), (948, 786), (948, 750)), 'confidence': 0.7938193082809448, 'time': 0.0}
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell input keyevent BACK
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell input keyevent BACK
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell input keyevent BACK

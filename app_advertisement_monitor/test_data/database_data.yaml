@@ -1,0 +1,16 @@
+PROD:
+  username: "10952"
+  password: "wentao123@"
+  username2: "10952"
+  password2: "wentao123@"
+  connect_database_tw591: tw591_prod
+  connect_database_tidb: tidb_prod
+
+TEST:
+  username: "10952"
+  password: "wentao123@"
+  connect_database_tw591: tw591
+  username2: t591
+  password2: sogamysql
+  connect_database_tidb: tidb
+

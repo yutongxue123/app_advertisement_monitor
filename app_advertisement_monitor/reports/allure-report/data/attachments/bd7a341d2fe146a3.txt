@@ -1,0 +1,97 @@
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe devices
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe devices
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR wait-for-device
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell getprop ro.build.version.sdk
+WARNING  airtest.core.api:helper.py:41 Device:R58RB57YBZR updated <airtest.core.android.android.Android object at 0x00000209F9BF9D30> -> <airtest.core.android.android.Android object at 0x00000209FA62D640>
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell am force-stop com.addcn.android.house591
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell am start -n com.addcn.android.house591/com.addcn.android.house591.ui.MainActivity
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell ls -l /data/local/tmp/rotationwatcher.jar
+DEBUG    airtest.core.android.rotation:rotation.py:49 install_rotationwatcher skipped
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [rotation_server]b'0'
+INFO     airtest.core.android.rotation:rotation.py:151 update orientation None->0
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell wm size
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell getprop ro.sf.lcd_density
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell dumpsys SurfaceFlinger
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell dumpsys input
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell getevent -p
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell ls -l /data/local/tmp/maxpresent.jar
+DEBUG    airtest.core.android.touch_methods.maxtouch:maxtouch.py:37 install_maxtouch skipped
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR forward --no-rebind tcp:13887 localabstract:maxpresent_13887
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_13887
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [airtouch_server]b'Metrics Message : 2400.0=====1080.0'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [airtouch_server]b'Start local socket (maxpresent_13887) server...'
+INFO     airtest.core.api:cv.py:59 Try finding: Template(E:\python_project\app_advertisement_monitor/page_img/common_img/tpl1702374419487.png)
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell ls /data/local/tmp/minicap
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell ls /data/local/tmp/minicap.so
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2>&1
+DEBUG    airtest.core.android.cap_methods.minicap:minicap.py:83 version:5
+DEBUG    airtest.core.android.cap_methods.minicap:minicap.py:90 skip install minicap
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n 'airtest_minicap' -P 1080x2400@1080x2400/0 -s
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR forward --no-rebind tcp:18743 localabstract:minicap_18743
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n 'minicap_18743' -P 1080x2400@1080x2400/0 -l 2>&1
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'PID: 17052'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: Using projection 1080x2400@1080x2400/0'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/minicap/src/minicap_31.cpp:245) Creating SurfaceComposerClient'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/minicap/src/minicap_31.cpp:248) Performing SurfaceComposerClient init check'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/minicap/src/minicap_31.cpp:259) Creating virtual display'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/minicap/src/minicap_31.cpp:265) Creating buffer queue'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/minicap/src/minicap_31.cpp:268) Setting buffer options'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/minicap/src/minicap_31.cpp:272) Creating CPU consumer'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/minicap/src/minicap_31.cpp:276) Creating frame waiter'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/minicap/src/minicap_31.cpp:280) Publishing virtual display'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (jni/minicap/JpgEncoder.cpp:64) Allocating 7835652 bytes for JPG encoder'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (jni/minicap/minicap.cpp:489) Server start'
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (jni/minicap/minicap.cpp:492) New client connection'
+DEBUG    airtest.core.android.cap_methods.minicap:minicap.py:244 (1, 24, 17052, 1080, 2400, 1080, 2400, 0, 2)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (706, 760), 'rectangle': ((672, 723), (672, 798), (741, 798), (741, 723)), 'confidence': 0.43661195039749146}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (708, 760), 'rectangle': ((674, 722), (674, 798), (743, 798), (743, 722)), 'confidence': 0.43227002024650574}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.05 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.39 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.19 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (973, 298), 'rectangle': ((939, 261), (939, 336), (1008, 336), (1008, 261)), 'confidence': 0.49221837520599365}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (972, 299), 'rectangle': ((938, 261), (938, 337), (1007, 337), (1007, 261)), 'confidence': 0.49388444423675537}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.06 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.38 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.23 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+INFO     airtest.core.api:cv.py:59 Try finding: Template(E:\python_project\app_advertisement_monitor/page_img/build_list_page_img/165483056928879606.jpg!fit.342x255.jpg)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (228, 2227), 'rectangle': ((57, 2100), (57, 2355), (399, 2355), (399, 2100)), 'confidence': 0.3668448030948639}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (227, 2228), 'rectangle': ((56, 2101), (56, 2356), (398, 2356), (398, 2101)), 'confidence': 0.3668009638786316}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.07 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (230, 1016), 'rectangle': [(0, 844), (0, 1188), (461, 1188), (461, 844)], 'confidence': 0.7335223704576492}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.87 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (230, 1016), 'rectangle': [(0, 844), (0, 1188), (461, 1188), (461, 844)], 'confidence': 0.7335223704576492, 'time': 0.8673298358917236}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(E:\python_project\app_advertisement_monitor/page_img/common_img/tpl1697625583157.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (436, 936), 'rectangle': ((399, 918), (399, 954), (474, 954), (474, 918)), 'confidence': 0.2987237572669983}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (236, 224), 'rectangle': ((199, 206), (199, 243), (274, 243), (274, 206)), 'confidence': 0.40502867102622986}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.06 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.33 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.04 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (910, 768), 'rectangle': ((873, 750), (873, 786), (948, 786), (948, 750)), 'confidence': 0.7938058972358704}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (910, 768), 'rectangle': ((873, 750), (873, 786), (948, 786), (948, 750)), 'confidence': 0.7938058972358704, 'time': 0.006999969482421875}
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell input keyevent BACK
+DEBUG    airtest.core.android.adb:adb.py:147 E:\python\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s R58RB57YBZR shell input keyevent BACK

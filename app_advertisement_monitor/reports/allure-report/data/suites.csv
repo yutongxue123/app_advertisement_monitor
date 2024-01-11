@@ -1,0 +1,82 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jan 10 19:37:44 CST 2024","Wed Jan 10 19:38:00 CST 2024","16191","test_cases","test_home_page","TestHomePage","","","首页推荐广告","
+        判断推荐列表广告是否可以点击
+        "
+"passed","Wed Jan 10 19:30:11 CST 2024","Wed Jan 10 19:30:18 CST 2024","6322","test_cases","test_build_list_page","TestBuildListPage","","","特色标签列表广告","
+        测试特色标签列表广告
+        "
+"passed","Wed Jan 10 19:27:58 CST 2024","Wed Jan 10 19:28:02 CST 2024","3956","test_cases","test_build_home_page","TestBuildHomePage","","","新建案首页列表广告","
+        判断新建案首页列表广告是否可以点击
+        备注：执行fixture操作, 没有返回值
+        "
+"passed","Wed Jan 10 19:39:24 CST 2024","Wed Jan 10 19:39:26 CST 2024","1877","test_cases","test_home_search_page","TestBuildSearchPage","","","文字链接搜索","
+        测试搜索框文字链接
+        "
+"skipped","Wed Jan 10 19:38:12 CST 2024","Wed Jan 10 19:38:12 CST 2024","0","test_cases","test_home_page","TestHomePage","","","猜你喜欢广告","
+        判断猜你喜欢列表广告是否可以点击,由于猜你喜欢每次请求的广告不一样，
+        故不通过图像识别方式判断广告是否存在，改用该区域的广告是否存在，是否可点击
+        "
+"passed","Wed Jan 10 19:27:26 CST 2024","Wed Jan 10 19:27:28 CST 2024","1688","test_cases","test_build_home_page","TestBuildHomePage","","","新建案首页左侧焦点广告","
+        判断新建案首页焦点左侧轮播图是否可以点击
+        "
+"passed","Wed Jan 10 19:27:41 CST 2024","Wed Jan 10 19:27:53 CST 2024","11715","test_cases","test_build_home_page","TestBuildHomePage","","","新建案首页右侧焦点广告b","
+        判断新建案首页焦点右侧下方广告位是否可以点击
+        "
+"passed","Wed Jan 10 19:31:30 CST 2024","Wed Jan 10 19:31:41 CST 2024","10787","test_cases","test_build_search_page","TestBuildSearchPage","","","新建案热词搜索","
+        测试热门关键词搜索
+        "
+"passed","Wed Jan 10 19:36:31 CST 2024","Wed Jan 10 19:36:48 CST 2024","17360","test_cases","test_home_page","TestHomePage","","","首页登荣广告","
+        判断登荣广告是否可以点击
+        "
+"passed","Wed Jan 10 19:39:43 CST 2024","Wed Jan 10 19:39:50 CST 2024","7286","test_cases","test_home_search_page","TestBuildSearchPage","","","区域关键词搜索","
+        测试区域关键字搜索
+        "
+"passed","Wed Jan 10 19:26:17 CST 2024","Wed Jan 10 19:26:36 CST 2024","19208","test_cases","test_build_home_page","TestBuildHomePage","","","新建案首页左侧焦点广告","
+        判断新建案首页焦点左侧轮播图是否可以点击
+        "
+"passed","Wed Jan 10 19:34:58 CST 2024","Wed Jan 10 19:35:11 CST 2024","13093","test_cases","test_home_page","TestHomePage","","","首页封面广告","
+        判断轮播图是否存在，且可以点击
+        "
+"passed","Wed Jan 10 19:39:29 CST 2024","Wed Jan 10 19:39:39 CST 2024","9958","test_cases","test_home_search_page","TestBuildSearchPage","","","热门关键词搜索","
+        测试热门关键词搜索
+        "
+"skipped","Wed Jan 10 19:31:43 CST 2024","Wed Jan 10 19:31:43 CST 2024","0","test_cases","test_home_page","TestHomePage","","","test_pop_up_advertisement","
+        判断首页弹窗广告是否可以点击
+        备注：由于每个县市的首页弹窗广告不一样，并且弹窗3s左右就会消失，所以不针对广告信息做判断，仅测试弹窗是否可正常点击
+        "
+"passed","Wed Jan 10 19:30:03 CST 2024","Wed Jan 10 19:30:09 CST 2024","5741","test_cases","test_build_list_page","TestBuildListPage","","","精選建案列表广告","
+        测试精選建案列表广告
+        "
+"passed","Wed Jan 10 19:35:38 CST 2024","Wed Jan 10 19:36:01 CST 2024","22367","test_cases","test_home_page","TestHomePage","","","首页封面广告","
+        判断轮播图是否存在，且可以点击
+        "
+"passed","Wed Jan 10 19:29:06 CST 2024","Wed Jan 10 19:29:14 CST 2024","8177","test_cases","test_build_list_page","TestBuildListPage","","","最新建案列表广告","
+        测试最新建案列表广告
+        "
+"passed","Wed Jan 10 19:26:41 CST 2024","Wed Jan 10 19:26:55 CST 2024","13992","test_cases","test_build_home_page","TestBuildHomePage","","","新建案首页左侧焦点广告","
+        判断新建案首页焦点左侧轮播图是否可以点击
+        "
+"passed","Wed Jan 10 19:28:04 CST 2024","Wed Jan 10 19:28:04 CST 2024","1","test_cases","test_build_home_page","TestBuildHomePage","","","新建案首页感兴趣广告","
+        判断新建案首页列表感兴趣广告是否可以点击
+        "
+"skipped","Wed Jan 10 19:30:09 CST 2024","Wed Jan 10 19:30:09 CST 2024","0","test_cases","test_build_list_page","TestBuildListPage","","","专属服务列表广告","
+        测试专属服务列表广告
+        "
+"passed","Wed Jan 10 19:24:16 CST 2024","Wed Jan 10 19:24:28 CST 2024","11704","test_cases","test_build_detail_page","TestBuiDetailPage","","","新建案详情页推荐广告","
+        测试新建案详情页推荐楼盘是否可以点击
+        "
+"passed","Wed Jan 10 19:28:52 CST 2024","Wed Jan 10 19:29:03 CST 2024","11061","test_cases","test_build_list_page","TestBuildListPage","","","所有建案列表广告","
+        测试所有建案列表广告
+        "
+"passed","Wed Jan 10 19:26:00 CST 2024","Wed Jan 10 19:26:13 CST 2024","12822","test_cases","test_build_home_page","TestBuildHomePage","","","新建案首页封面广告","
+        判断新建案首页封面广告是否可以点击
+        "
+"passed","Wed Jan 10 19:29:45 CST 2024","Wed Jan 10 19:30:00 CST 2024","14851","test_cases","test_build_list_page","TestBuildListPage","","","即将发布列表广告","
+        测试即将发布列表广告
+        "
+"passed","Wed Jan 10 19:33:24 CST 2024","Wed Jan 10 19:33:48 CST 2024","24571","test_cases","test_home_page","TestHomePage","","","首页封面广告","
+        判断轮播图是否存在，且可以点击
+        "
+"passed","Wed Jan 10 19:27:29 CST 2024","Wed Jan 10 19:27:39 CST 2024","9883","test_cases","test_build_home_page","TestBuildHomePage","","","新建案首页右侧焦点广告a","
+        判断新建案首页焦点右侧上方广告位是否可以点击
+        "
